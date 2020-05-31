@@ -12,7 +12,7 @@
 -----
 
 # Download
-You can download at [Android Utils]()
+You can download at [Android Utils]().
 
 # Usage
 ## Logging with Default Tag
