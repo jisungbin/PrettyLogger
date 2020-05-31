@@ -35,7 +35,7 @@ i(tag: String, any: Any?)
 
 # Option
 ## Default Tag
-Default tag is `TAG`.
+Default tag is `TAG`.<br>
 You can set your Tag with `setTag(tag: String)` method.
 
 ## ShowLogControl
@@ -45,9 +45,6 @@ You can control show log with `showLog(showLog: Boolean)` method.
 PrettyLogger is supported `Iterable` and `Map` logging.
 
 ## Example
-
-<img src="https://github.com/sungbin5304/PrettyLogger/blob/master/images/PrettyLogger.png" width="33%" align="right" />
-
 ``` Kotlin
 val map = HashMap<String, String>()
 map["A"] = "BCD"
@@ -60,3 +57,4 @@ LogUtils.w("This is my Pretty Log.")
 LogUtils.setTag("Custom Tag")
 LogUtils.v("Change Tag.")
 ```
+![preview](https://github.com/sungbin5304/PrettyLogger/blob/master/images/PrettyLogger.png)
