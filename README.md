@@ -12,7 +12,7 @@
 -----
 
 # Download
-You can download at [Android Utils]().
+You can download at [Android Utils](https://github.com/sungbin5304/AndroidUtils#logutils).
 
 # Usage
 ## Logging with Default Tag
