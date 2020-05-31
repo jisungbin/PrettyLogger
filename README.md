@@ -8,3 +8,55 @@
 <p align="center">
 <img src="https://raw.githubusercontent.com/sungbin5304/PrettyLogger/master/images/log.png"/>
 </p>
+
+-----
+
+# Download
+You can download at [Android Utils]()
+
+# Usage
+## Logging with Default Tag
+``` Kotlin
+w(any: Any?)
+v(any: Any?)
+d(any: Any?)
+e(any: Any?)
+i(any: Any?)
+```
+
+## Logging with Custom Tag
+``` Kotlin
+w(tag: String, any: Any?)
+v(tag: String, any: Any?)
+d(tag: String, any: Any?)
+e(tag: String, any: Any?)
+i(tag: String, any: Any?)
+```
+
+# Option
+## Default Tag
+Default tag is `TAG`.
+You can set your Tag with `setTag(tag: String)` method.
+
+## ShowLogControl
+You can control show log with `showLog(showLog: Boolean)` method.
+
+# Tip
+PrettyLogger is supported `Iterable` and `Map` logging.
+
+## Example
+
+<img src="https://github.com/sungbin5304/PrettyLogger/blob/master/images/PrettyLogger.png" width="33%" align="right" />
+
+``` Kotlin
+val map = HashMap<String, String>()
+map["A"] = "BCD"
+map["E"] = "FGH"
+map["I"] = "JKL"
+LogUtils.d("Map Content", map)
+LogUtils.i("Iterable Content", arrayListOf("T", "", "E", "", "S", "T", "", "above data is empty value."))
+LogUtils.e(null)
+LogUtils.w("This is my Pretty Log.")
+LogUtils.setTag("Custom Tag")
+LogUtils.v("Change Tag.")
+```
