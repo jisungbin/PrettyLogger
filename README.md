@@ -6,5 +6,5 @@
 </p><br>
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/sungbin5304/PrettyLogger/master/images/PrettyLogger.png" width="50%"/>
+<img src="https://raw.githubusercontent.com/sungbin5304/PrettyLogger/master/images/log.png"/>
 </p>
