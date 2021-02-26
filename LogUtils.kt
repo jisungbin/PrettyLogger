@@ -1,5 +1,3 @@
-package com.sungbin.sungbintool
-
 import android.util.Log
 
 object LogUtils {
